@@ -5,7 +5,7 @@ This project was completed as part of a Kaggle competition focused on predicting
 
 ## Tools and Technologies Used
 - Language: R
-- Libraries: xgboost, ranger, e1071, caret, randomForest, gbm
+- Libraries: xgboost, ranger, caret, randomForest, gbm
 - Modeling Techniques: Decision trees, random forests, bagging, boosting, SVMs
 - Evaluation Metric: RMSE (Root Mean Squared Error)
 
