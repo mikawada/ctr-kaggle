@@ -1,4 +1,4 @@
-# Click-Through Rate (CTR) Predictive Modeling – Kaggle Competition
+# Ad CTR Predictive Modeling – Kaggle Competition
 
 ## Description
 This project was completed as part of a Kaggle competition focused on predicting the Click-Through Rate (CTR) of display advertisements. I explored various supervised learning models and tuned hyperparameters to improve accuracy. My best-performing model was an XGBoost regressor, which achieved a final RMSE of 0.06360, ranking top 25% on the leaderboard after 30 submissions.
@@ -26,3 +26,20 @@ This project was completed as part of a Kaggle competition focused on predicting
 ### 4. Model Evaluation
 - Final XGBoost RMSE: 0.06360
 - Improved leaderboard ranking by 96 positions during the competition
+
+## Model Comparison (Sample)
+<p> <img src="comparison.png" alt="Dashboard Preview" width="800"/> </p>
+
+## Challenges
+- Handling missing and non-numeric data during preprocessing
+- Avoiding overfitting while tuning model complexity
+- Balancing bias and variance through parameter tuning and validation
+- Managing submission format and syntax issues within the Kaggle environment
+
+## Future Considerations
+- Explore deeper feature engineering and transformation techniques
+- Learn advanced ensemble methods to combine multiple models effectively
+- Analyze how hyperparameter tuning affects model interpretation and generalizability
+
+## Conclusion
+Through this competition, I gained hands-on experience in feature selection, model comparison, and hyperparameter tuning. I learned how subtle adjustments to parameters and cross-validation strategies can significantly affect prediction accuracy, and I saw the importance of balancing accuracy with generalization.
